@@ -24,8 +24,11 @@ class Layout extends React.Component {
   };
 
   render() {
+    const style = {
+      paddingTop: '80px'
+    }
     return (
-      <div>
+      <div style={style}>
         <Header />
         {this.props.children}
         <Feedback />
