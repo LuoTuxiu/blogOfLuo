@@ -6,7 +6,12 @@
     "node": ">=6.5",
     "npm": ">=3.10"
   },
-  "browserslist": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
+  "browserslist": [
+    ">1%",
+    "last 4 versions",
+    "Firefox ESR",
+    "not ie < 9"
+  ],
   "dependencies": {
     "babel-polyfill": "7.0.0-beta.3",
     "bluebird": "^3.5.1",
@@ -21,6 +26,7 @@
     "history": "^4.7.2",
     "isomorphic-style-loader": "^4.0.0",
     "jsonwebtoken": "^8.1.0",
+    "material-ui": "^0.19.4",
     "node-fetch": "^1.7.3",
     "normalize.css": "^7.0.0",
     "passport": "^0.4.0",
@@ -115,9 +121,18 @@
     "webpack-node-externals": "^1.6.0"
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "git add"],
-    "*.{json,graphql}": ["prettier --write", "git add"],
-    "*.{css,less,styl,scss,sass,sss}": ["stylelint --fix", "git add"]
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{json,graphql}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{css,less,styl,scss,sass,sss}": [
+      "stylelint --fix",
+      "git add"
+    ]
   },
   "scripts": {
     "precommit": "lint-staged",

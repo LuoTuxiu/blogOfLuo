@@ -1,0 +1,6 @@
+{
+  "name": "SearchZone",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SearchZone.js"
+}

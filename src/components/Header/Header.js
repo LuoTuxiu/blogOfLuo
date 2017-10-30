@@ -12,6 +12,7 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Header.css';
 import Link from '../Link';
 import Navigation from '../Navigation';
+import SearchZone from '../SearchZone';
 // import logoUrl from './logo-small.png';
 // import logoUrl2x from './logo-small@2x.png';
 
@@ -31,6 +32,7 @@ class Header extends React.Component {
             /> */}
             <span className={s.brandTxt}>骆图秀的博客</span>
           </Link>
+          <SearchZone></SearchZone>
         </div>
       </div>
     );
